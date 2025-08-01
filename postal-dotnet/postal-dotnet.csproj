@@ -2,9 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Postal</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>MailrouteOne.Postal</RootNamespace>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MailrouteOne.PostalDotnet</PackageId>
+    <Authors>Kevin Meyer</Authors>
+    <Company>mailroute.one</Company>
+		<Version>0.0.1</Version>
+    <PackageProjectUrl>https://mailroute.one</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mailroute-one/postal-dotnet</RepositoryUrl>
+    <PackageTags>postal,mail</PackageTags>
+    <Description>Client library for the fantastic open source mail delivery platform Postal.</Description>
   </PropertyGroup>
 
   <ItemGroup>

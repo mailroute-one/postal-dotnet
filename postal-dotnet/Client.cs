@@ -1,4 +1,9 @@
-﻿namespace Postal
+﻿using System;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace MailrouteOne.Postal
 {
     public class Client
     {

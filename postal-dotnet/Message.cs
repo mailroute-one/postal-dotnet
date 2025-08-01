@@ -1,5 +1,6 @@
-﻿
-namespace Postal
+﻿using System.Collections.Generic;
+
+namespace MailrouteOne.Postal
 {
     public class Message
     {
