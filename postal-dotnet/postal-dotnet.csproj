@@ -16,7 +16,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include=".github\workflows\publish.yml" />
+    <Compile Remove=".github\**" />
+    <EmbeddedResource Remove=".github\**" />
+    <None Remove=".github\**" />
   </ItemGroup>
 
   <ItemGroup>
